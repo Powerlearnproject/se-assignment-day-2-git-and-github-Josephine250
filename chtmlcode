@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>well structured HTML 5 document</title>
+    </head>
+    <body>
+        <header><h1>HTML document</h1></header>
+        <main>
+        <ol type ="I">
+            <li>alice</li>
+            <li>Jean</li>
+            <li>Kalisa</li>
+            <li>Josephine</li>
+        </ol>
+        <table border>
+            <tr>
+            <th>Term</th><th>name</th><th>mobile</th>
+            </tr>
+            
+            <tr><td>1</td><td>kalisa</td><td>0789454</td></tr>
+            <tr><td>2</td><td>Josephine</td><td>783450</td></tr>
+            <tr><td>3</td><td>uwase</td><td>0778658</td></tr>
+            <tr><td>4</td><td>angle</td><td>0785463</td></tr>
+        </table>
+        <h1>REGISTRATION FORM </h1>
+        <form action ="" method = "">
+            <label for = "name">name</label>
+            <input type="text" id = "studentname" name = "name" required><br><br>
+            <label for = "email">email</label>
+            <input type="text" id = "studentemail" gmail="email" required><br><br>
+            <label for = "number">number</label>
+            <input type="number" id = "studentnumber" name = "number" required><br><br>
+            <label for = "address">address</label>
+            <input type="text" id = "studentaddress" address = "Address" required><br><br>
+            <label for="gender">gender</label>
+            <input type="radio"id="gender"name="gender"value="female">female
+            <input type="radio"id="gender"name="gender"value="male">male
+        </form>
+
+        <img src = "https://cdn.fstoppers.com/wp-content/uploads/2014/04/1396993144-perspectives-jc-findley.jpg"alt = "image from pixel" width = "180" height="180">
+        <audio src="andy.mp3" controls></audio>
+        <video src="preaching .mp4" width="200" height="200"controls></video>
+    </main>
+        <footer>
+            <p>&copy; 2025 My Website. All rights reserved.</p>
+        </footer>          
+    </body>
+</html>
